@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 648 612">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #b3b4b4;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        font-family: MVBoli, 'MV Boli';
+        font-size: 163.85px;
+        stroke-width: 2px;
+      }
+
+      .cls-3, .cls-4 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-5 {
+        fill: #231f20;
+      }
+
+      .cls-6 {
+        font-family: SegoeUISymbol, 'Segoe UI Symbol';
+        font-size: 67px;
+      }
+
+      .cls-6, .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-7 {
+        font-family: BerlinSansFBDemi-Bold, 'Berlin Sans FB Demi';
+        font-size: 100px;
+        font-weight: 700;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke-width: 4px;
+      }
+
+      .cls-5 {
+        font-family: Kalam-Regular, Kalam;
+        font-size: 51px;
+      }
+    </style>
+  </defs>
+  <circle class="cls-2" cx="306" cy="306" r="306"/>
+  <text class="cls-7" transform="translate(46.94 348.65) rotate(.3)"><tspan x="0" y="0">COOL</tspan></text>
+  <text class="cls-3" transform="translate(335.9 352.16) scale(.61 .92) skewX(-32.79)"><tspan x="0" y="0">Lip</tspan></text>
+  <text class="cls-6" transform="translate(529.43 245.96)"><tspan x="0" y="0">R</tspan></text>
+  <circle class="cls-4" cx="548.5" cy="224.5" r="34"/>
+  <polygon class="cls-1" points="430.23 475.68 205.55 461.89 195.34 394.49 422 400 430.23 475.68"/>
+  <text class="cls-5" transform="translate(262.23 448.51)"><tspan x="0" y="0">Snus</tspan></text>
+</svg>
