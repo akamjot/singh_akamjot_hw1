@@ -28,3 +28,7 @@
     transition: all 0.5s ease ;
     transform-origin: center;
 }
+
+.cls-5:hover{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

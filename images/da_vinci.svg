@@ -28,7 +28,34 @@
       .cls-4 {
         fill: url(#Sky-2);
       }
+
+      .cls-5:hover{
+        font-color: red;
+      
+      }
+
+      #sky:hover {
+        display: none;
+      }
+
+
     </style>
+
+      <script>
+
+      console.log("JS file connected");
+
+      const vectorGraphic = document.querySelector('#badge');
+
+      function logThisId() {
+          console.log(this);
+          console.log('clicked on this element', this.id);
+      }
+
+      vectorGraphic.addEventListener('click', logThisId);
+
+      </script>
+    
     <linearGradient id="Sky" x1="0" y1="384.03" x2="756.79" y2="384.03" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#cce0f4"/>
       <stop offset=".06" stop-color="#c2dcf2"/>
