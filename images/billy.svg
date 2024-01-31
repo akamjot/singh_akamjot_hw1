@@ -24,8 +24,26 @@
       .cls-4 {
         fill: #f7ec13;
       }
-    </style>
-  </defs>
+
+      .cls-2:hover {
+        color: red;
+      }
+
+      </style>
+      <script>
+      console.log("JS file connected");
+
+      const vectorGraphic = document.querySelector('#badge');
+
+      function logThisId() {
+          console.log(this);
+          console.log('clicked on this element', this.id);
+      }
+
+      vectorGraphic.addEventListener('click', logThisId);
+      </script>
+         
+        </defs>
   <circle class="cls-2" cx="507.5" cy="507.5" r="507.5"/>
   <circle class="cls-3" cx="507" cy="508" r="436"/>
   <circle class="cls-2" cx="507.43" cy="508.43" r="364.89"/>
