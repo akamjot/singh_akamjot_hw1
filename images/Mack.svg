@@ -20,7 +20,19 @@
         stroke-miterlimit: 10;
         stroke-width: 2px;
       }
+
+      
     </style>
+    console.log("JS file connected");
+
+const vectorGraphic = document.querySelector('#badge');
+
+function logThisId() {
+    console.log(this);
+    console.log('clicked on this element', this.id);
+}
+
+vectorGraphic.addEventListener('click', logThisId);
   </defs>
   <circle class="cls-1" cx="247.5" cy="247.5" r="247.5"/>
   <g>
