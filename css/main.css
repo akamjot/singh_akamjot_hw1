@@ -1,7 +1,35 @@
-#sky {
-    background-color: black;
+.hidden {
+    display: none;
 }
 
-.cls-4:hover {
+#greytext {
+    transition: all 0.5s ease;
+    transform-origin: center;
+}
+
+#badge:hover #bgcircle {
+    fill: orange;
+}
+
+#badge:hover #greytext {
+    fill: white;
+    transform: rotate(130deg);
+}
+
+.cls-2:hover {
     color: red;
+}
+
+.cls-1:hover {
+    color: black;
+}
+
+.cls-3:hover {
+    transition: all 0.5s ease ;
+    transform-origin: center;
+}
+
+.cls-5:hover{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
